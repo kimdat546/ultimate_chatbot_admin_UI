@@ -1,0 +1,53 @@
+{
+    "intents": [
+        {
+            "_id": "28732983383928",
+            "name": "Không nghe người khác nói",
+            "tag": "loi_khong_nghe_thay_tieng_nguoi_khac_trong_zoom",
+            "patterns": [
+                "Vì sao không nghe được người khác nói trong zoom",
+                " Người khác nói chuyện trong zoom nhưng mình không nghe được",
+                " Người khác đang nói chuyện trong zoom nhưng mình không nghe được",
+                " Không thể nghe người khác nói chuyện trong zoom",
+                " Không nghe được người khác đang nói chuyện trong zoom",
+                " Người ta nói mình không nghe được",
+                " Không nghe được tiếng của người khác trong zoom",
+                " Người khác đang phát tiếng nhưng không nghe được"
+            ],
+            "response": "Kiểm tra lại âm thanh bằng cách vào setting -> audio -> test speaker -> nếu nghe thấy tiếng thì ok, trường hợp không nghe thấy tiếng thì chọn lại đầu ra âm thanh trong mục thả xuống bên cạnh, trường hợp vẫn không được nữa thì thử thoát và tắt zoom sau đó khởi động lại"
+        },
+        {
+            "_id": "3908509054545988",
+            "name": "Không nghe tiếng",
+            "tag": "loi_noi_nguoi_khac_khong_nghe_tieng_trong_zoom",
+            "patterns": [
+                "Mình nói nhưng người khác không nghe thấy",
+                " Người khác không nghe được tiếng mình nói",
+                " Mình nói nhưng người khác không nghe được",
+                " Nói nhưng mic không thu được",
+                " Mic không thu được âm thanh khi mình nói chuyện",
+                " Nói trong zoom nhưng không ai nghe được cả",
+                " Lỗi nói người khác không nghe được trong zoom",
+                " Nói nhưng không ai nghe thấy cả",
+                " Không ai nghe được mình nói mặc dù mình đang nói",
+                " Nói nhưng mọi người không nghe được"
+            ],
+            "response": "Kiểm tra lại mic bằng cách vào setting -> audio -> test mic -> nếu thấy nhận tín hiệu thì ok, trường hợp không được thì chọn lại đầu vào âm thanh trong mục thả xuống bên cạnh"
+        }
+    ],
+    "28732983383928": {
+        "name": "Không nghe người khác nói",
+        "tag": "loi_khong_nghe_thay_tieng_nguoi_khac_trong_zoom",
+        "patterns": [
+            "Vì sao không nghe được người khác nói trong zoom",
+            " Người khác nói chuyện trong zoom nhưng mình không nghe được",
+            " Người khác đang nói chuyện trong zoom nhưng mình không nghe được",
+            " Không thể nghe người khác nói chuyện trong zoom",
+            " Không nghe được người khác đang nói chuyện trong zoom",
+            " Người ta nói mình không nghe được",
+            " Không nghe được tiếng của người khác trong zoom",
+            " Người khác đang phát tiếng nhưng không nghe được"
+        ],
+        "response": "Kiểm tra lại âm thanh bằng cách vào setting -> audio -> test speaker -> nếu nghe thấy tiếng thì ok, trường hợp không nghe thấy tiếng thì chọn lại đầu ra âm thanh trong mục thả xuống bên cạnh, trường hợp vẫn không được nữa thì thử thoát và tắt zoom sau đó khởi động lại"
+    }
+}
